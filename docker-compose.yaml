@@ -36,6 +36,9 @@ services:
     environment:
       - TRUST_PROXY_HEADER=1
       - DB_URL=postgres://postgres:postgres@postgres:5432/logto
+      # login: admin
+      # pass: LogtoAdmin
+
 volumes:
   postgres:
   pgadmin:
